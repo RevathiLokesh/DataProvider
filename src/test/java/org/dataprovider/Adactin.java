@@ -8,7 +8,7 @@ public void browserconfig()
 {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Venkat\\eclipse-workspace\\Dataprovider\\driver\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
-	driver.get("https://www.facebook.com");
+	driver.get("https://www.instagram.com");
 	driver.manage().window().maximize();
 	
 	
